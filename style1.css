@@ -4,15 +4,19 @@ body,*{
     margin: 0;
 }
 body>* {
-    padding: 10px 100px;
+    padding: 10px 10px;
 }
 .box {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: 410px;
 }
 .bot {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    
 }
 
 h1 {
@@ -26,19 +30,27 @@ h2,p {
 }
 .part1,
 .part2,
+.part3
+ {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+}
 .part3 {
     background-color: aqua;
     display: flex;
     flex-direction: column;
     height: 300px;
-    margin: 15px 10px;
+    width: 850px;
 }
-
 .part3 ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
     padding: 15px 0;
+
 }
 
 .part3  a {
@@ -46,6 +58,6 @@ h2,p {
     text-decoration: none;
     color: black;
     text-align: center;
-    padding: 5px 70px;
+    padding: 5px 25px;
     margin: 0 20px ;
 }

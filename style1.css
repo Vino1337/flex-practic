@@ -1,0 +1,51 @@
+body,*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body>* {
+    padding: 10px 100px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.bot {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+h2,p {
+    padding: 10px;
+}
+.part1,
+.part2,
+.part3 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: 15px 10px;
+}
+
+.part3 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.part3  a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px 70px;
+    margin: 0 20px ;
+}
